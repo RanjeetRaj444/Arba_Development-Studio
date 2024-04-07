@@ -1,0 +1,45 @@
+.carousel-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.carousel-slide {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.slide {
+	flex: 0 0 auto;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background-color: teal;
+}
+.slide > img {
+	width: 40%;
+	/* height: 40%; */
+}
+
+.prev,
+.next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #00aac3;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 2rem;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}

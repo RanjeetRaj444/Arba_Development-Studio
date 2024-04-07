@@ -1,0 +1,51 @@
+.store {
+	width: 70%;
+	margin: auto;
+}
+
+.section_contaoner {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.section_contaoner > div {
+	width: 50%;
+	/* background-color: teal; */
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+.filter_container {
+	display: flex;
+	padding: 0.5rem 2rem;
+	gap: 2rem;
+}
+.product_category {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+td {
+	border: 2px solid rgb(0, 0, 0);
+	
+}
+.action_btn{
+	display: flex;
+	gap: .5rem;
+}
+thead>tr{
+	background-color: teal;
+}
+td img {
+	width: 8%;
+	border-radius: 50%;
+}
+.light {
+	background-color: rgb(15, 240, 240);
+}
+.dark {
+	background-color: teal;
+}

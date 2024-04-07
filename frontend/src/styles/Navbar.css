@@ -1,0 +1,33 @@
+.nav_link_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 2rem;
+}
+.nav_cart_profile_section {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	gap: 1rem;
+	width: 9%;
+}
+.nav_profile_image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav_profile_image > {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav_profile_image > img {
+	width: 50%;
+	border-radius: 50%;
+}
+.css-1qq679y{
+	width: 30%;
+	display: flex;
+	justify-content: right;
+	padding: 0rem 1rem;
+}
